@@ -16,7 +16,7 @@ class Professional() :
     
     def mostrarTodo(self):
         print('Su nombre es:', self.name)
-        print('Su edad es: ', self.edad)
+        print('Su edad es: ', self.age)
         print('Su género es:', self.genre)
         print('Su color de pelo es: ', self. hairColour)
         print('Su color de ojos es: ', self.eyeColour)
