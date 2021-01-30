@@ -1,3 +1,5 @@
+import professional as professional
+
 class Movie ():
 
     def __init__(self, title, releaseYear, nationality, genre):
@@ -18,13 +20,15 @@ class Movie ():
     def mostrarMovie (self):
         print("Title:", self.title)
         print("Release year:", self.releaseYear)
-        for actor in actors:
+        for actor in self.actors:
             actor.mostrarTodo()
-        director.mostrarTodo()
-        writer.mostrarTodo()
+        self.director.mostrarTodo()
+        self.writer.mostrarTodo()
         print("Language:", self.language)
         print("Platform:", self.platform)
         print("Is MCU:", self.isMCU)
         print("Main Character Name:", self.mainCharacterName)
         print("Producer:", self.producer)
         print("Distributor:", self.distributor)
+
+
