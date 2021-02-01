@@ -279,6 +279,21 @@
             "mainCharacterName": "Harry Potter",
             "producer": "Warner",
             "distributor": "Sony"
+        },
+        {
+            "title": "terminator",
+            "releaseYear": "1990",
+            "nationality": "estadounidense",
+            "genre": "ciencoa",
+            "actors": [],
+            "director": null,
+            "writer": null,
+            "language": "",
+            "platform": "",
+            "isMCU": false,
+            "mainCharacterName": "",
+            "producer": "",
+            "distributor": ""
         }
     ]
 }

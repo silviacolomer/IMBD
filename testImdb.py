@@ -4,10 +4,7 @@ import movie as mov
 import testMovie as tMov
 
 
-
-
 imdb1 = imdb.Imdb([tMov.peli1, tMov.peli2, tMov.peli3, tMov.peli4])
-
 
 
 imdb1.serialized("bbdd.json")
